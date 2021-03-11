@@ -8152,7 +8152,7 @@ GenTree* Compiler::fgMorphCall(GenTreeCall* call)
                 // We still must check for any struct parameters and set 'hasStructParam'
                 // so that we won't transform the recursive tail call into a loop.
                 //
-                if (call->IsImplicitTailCall())
+                if (call->IsImplicitTailCall() || call->IsStressTailCall())
                 {
                     if (varDsc->lvHasLdAddrOp)
                     {
