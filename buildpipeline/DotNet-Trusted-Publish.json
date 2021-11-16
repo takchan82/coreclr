@@ -679,18 +679,18 @@
   "quality": "definition",
   "drafts": [],
   "queue": {
-    "_links": {
-      "self": {
-        "href": "https://devdiv.visualstudio.com/DefaultCollection/_apis/build/Queues/330"
+      "_links": {
+        "self": {
+          "href": "https://devdiv.visualstudio.com/_apis/build/Queues/3289"
+        }
+      },
+      "id": 3289,
+      "name": "DotNetCore-Build-1ES",
+      "url": "https://devdiv.visualstudio.com/_apis/build/Queues/3289",
+      "pool": {
+        "id": 410,
+        "name": "DotNetCore-Build-1ES"
       }
-    },
-    "id": 330,
-    "name": "DotNetCore-Build",
-    "url": "https://devdiv.visualstudio.com/DefaultCollection/_apis/build/Queues/330",
-    "pool": {
-      "id": 97,
-      "name": "DotNetCore-Build"
-    }
   },
   "id": 2943,
   "name": "DotNet-Trusted-Publish",

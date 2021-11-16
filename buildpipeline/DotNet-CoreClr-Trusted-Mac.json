@@ -338,12 +338,12 @@
   "quality": "definition",
   "drafts": [],
   "queue": {
-    "id": 330,
-    "name": "DotNetCore-Build",
-    "pool": {
-      "id": 97,
-      "name": "DotNetCore-Build"
-    }
+      "id": 3289,
+      "name": "DotNetCore-Build-1ES",
+      "pool": {
+        "id": 410,
+        "name": "DotNetCore-Build-1ES"
+      }
   },
   "id": 1680,
   "name": "DotNet-CoreClr-Trusted-Mac",
